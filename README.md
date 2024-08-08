@@ -24,9 +24,9 @@
 - **OpenAI API (ChatGPT):** Generates natural language summaries.
 - **Twilio (or similar):** Sends SMS notifications.
 
+## A personal Kanban board to help track progress can be found [here](https://trello.com/b/cfrAO7j2/robo-coffee)
 
 ## Future Improvements
 
-- Expand network monitoring capabilities.
-- Add support for additional calendar and weather services.
-- Enhance natural language processing with more contextual data.
+- Develop a web gui and landing page/home page
+- Develop bi-directional interactions via SMS
