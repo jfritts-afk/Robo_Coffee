@@ -1,12 +1,16 @@
 ## Overview
 ![alt text](/Misc_imaging/logo-no-background.svg "Goodmorning!")
 
-This project is a Python-based personal assistant that runs indefinitely in a Docker container. It gathers data from various sources, including your home network, Google Calendar, and a weather API. Using the ChatGPT API, the assistant processes and summarizes the collected information and sends a "Good Morning" message via SMS.
+This is a personal project to provide myself with a good morning text that gives me a nice goodmorning message.
+- Collects data from my various servers and containers to make sure there are not any errors or downtime
+- Collects relevant data from my google calendar for the day.
+- Pulls the weather forcast
+- Combines all of this data and then is compiled and written via ChatGPT to then send via sms to my device. This is based on either time of day or first event in the calendar.
 
 ## Features
 
-- **Home Network Monitoring:** Collects and reports on network metrics, such as device status and bandwidth usage.
-- **Google Calendar Integration:** Fetches upcoming events from your Google Calendar.
+- **Host Monitoring:** Collects and reports on network metrics, such as device status and bandwidth usage.
+- **Google Calendar Integration:** Fetches upcoming events from my Google Calendar.
 - **Weather Information:** Retrieves the current weather and forecasts using a free weather API.
 - **ChatGPT Integration:** Processes the collected data and generates a summary using the ChatGPT API.
 - **SMS Notifications:** Sends a daily "Good Morning" message with the summary via SMS.
@@ -20,29 +24,6 @@ This project is a Python-based personal assistant that runs indefinitely in a Do
 - **OpenAI API (ChatGPT):** Generates natural language summaries.
 - **Twilio (or similar):** Sends SMS notifications.
 
-## Getting Started
-
-### Prerequisites
-
-- **Docker:** Ensure Docker is installed on your system.
-- **API Keys and Credentials:** You'll need API keys for Google, OpenWeatherMap, OpenAI, and Twilio (or an equivalent SMS service).
-- **Python Libraries:** Required libraries are listed in `requirements.txt`.
-
-### Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/my_personal_assistant.git
-   cd my_personal_assistant
-   ```
-
-2. Set up environment variables for API keys and other sensitive data.
-
-3. Build and run the Docker container:
-   ```bash
-   docker build -t my_personal_assistant .
-   docker run -d --env-file .env my_personal_assistant
-   ```
 
 ## Future Improvements
 
