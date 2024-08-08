@@ -1,5 +1,5 @@
 ## Overview
-![alt text](Robo_Coffee/Misc_imaging/logo-no-background.svg "Goodmorning!")
+![alt text](/Misc_imaging/logo-no-background.svg "Goodmorning!")
 
 This project is a Python-based personal assistant that runs indefinitely in a Docker container. It gathers data from various sources, including your home network, Google Calendar, and a weather API. Using the ChatGPT API, the assistant processes and summarizes the collected information and sends a "Good Morning" message via SMS.
 
