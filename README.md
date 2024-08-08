@@ -1,10 +1,10 @@
 ## Overview
 ![alt text](/Misc_imaging/logo-no-background.svg "Goodmorning!")
 
-This is a personal project to provide myself with a good morning text that gives me a nice goodmorning message.
+**This is a personal project to provide myself with a good morning text that gives me a nice good morning message.**
 - Collects data from my various servers and containers to make sure there are not any errors or downtime
 - Collects relevant data from my google calendar for the day.
-- Pulls the weather forcast
+- Pulls the weather forecast
 - Combines all of this data and then is compiled and written via ChatGPT to then send via sms to my device. This is based on either time of day or first event in the calendar.
 
 ## Features
