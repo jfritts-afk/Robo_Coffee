@@ -26,6 +26,9 @@
 
 ## A personal Kanban board to help track progress can be found [here](https://trello.com/b/cfrAO7j2/robo-coffee)
 
+## Portions of the project that are finished in a standalone state.
+- [Wiki_Wanderer](https://github.com/jfritts-afk/Wiki_Wanderer)
+- [Weather_Wonder](https://github.com/jfritts-afk/Weather_Wonder)
 ## Future Improvements
 
 - Develop a web gui and landing page/home page
